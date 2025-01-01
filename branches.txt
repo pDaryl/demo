@@ -5,3 +5,6 @@ git checkout *branch name* - allows me to switch between branches
 if i create a files or code in a new branch and then swap back to the main or a different branch where thse files were not created then i wont be able to access those files. or ill see that those files are colored red with a line through them. 
 - merging the branches can fix that if i need it another branch for some reason. just note that if i notice something like that then that is why. 
 
+git merge *branch name* - this is how to merge the branches  -- also this creates a commit. 
+- whatever branch i am merging to (most likely my main branch) is the branch i want to be in, and then i use the name of the branch i am merging. 
+example: i have a new branch named "new-branch" and  i want to merge it to my main branch. i need to make sure i am in the main branch and then use 'git merge new-branch'
