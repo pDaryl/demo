@@ -1,0 +1,7 @@
+git checkout -b *branch name* -  allows me to create a new branch 
+
+git checkout *branch name* - allows me to switch between branches 
+
+if i create a files or code in a new branch and then swap back to the main or a different branch where thse files were not created then i wont be able to access those files. or ill see that those files are colored red with a line through them. 
+- merging the branches can fix that if i need it another branch for some reason. just note that if i notice something like that then that is why. 
+
