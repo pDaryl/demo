@@ -1,0 +1,18 @@
+to initialize the git repo or create one just use 'git init'
+
+'git add' will add files that i want to commit also known as staging the files. i have to type in the file names. if there are a lot of files then i need to use 'git add .' and this will add all the files in the current directory
+
+to commit use 'git commit', then i want to add a message so i use 'git commit -m "" '
+
+some more command line tools are:
+git status -  shows me the status of the files. like what was added or if there are files waiting and were not added. or things like if the file was modified and in waiting. 
+
+git log - shows me the history of commits, which branch they are in and the message for the commit so i know what each one is. 
+
+branches are different versions of the codes 'main or master' is the main branch where the most up to date, completed version of the code will exist
+
+.gitignore - 'git ignore file' is a file i ca create to ignore any files or directories i dont want to stage for the commit. 
+
+git branch - lets me look at all branches 
+
+git branch -D *branch name* - allows me to delete a branch
